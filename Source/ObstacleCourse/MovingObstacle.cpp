@@ -15,7 +15,10 @@ AMovingObstacle::AMovingObstacle()
 void AMovingObstacle::BeginPlay()
 {
 	Super::BeginPlay();
-	
+
+	MyInt = 43;
+	InputC = InputA + InputB;
+	TotalFloat = FloatA + FloatB;
 }
 
 // Called every frame

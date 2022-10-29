@@ -27,11 +27,20 @@ public:
 	int32 MyInt = 99;
 
 	UPROPERTY(EditAnywhere)
-	int32 SecondInt = 66;
+	int32 InputA = 14;
 
 	UPROPERTY(EditAnywhere)
-	float MyFloat = 0.0001;
+	int32 InputB = 16;
 
 	UPROPERTY(EditAnywhere)
-	bool MyBool = true;
+	int32 InputC = 0;
+
+	UPROPERTY(EditAnywhere)
+	float FloatA = 7.65;
+
+	UPROPERTY(EditAnywhere)
+	float FloatB = 11.86;
+
+	UPROPERTY(EditAnywhere)
+	float TotalFloat = 0;
 };
