@@ -1,0 +1,152 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Launch ObstacleCourse (Debug)",
+			"request": "launch",
+			"program": "Z:\\Game Dev\\Obstacle-Course\\Binaries\\Win64\\UnrealGame-Win64-Debug.exe",
+			"preLaunchTask": "ObstacleCourse Win64 Debug Build",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch ObstacleCourse (DebugGame)",
+			"request": "launch",
+			"program": "Z:\\Game Dev\\Obstacle-Course\\Binaries\\Win64\\UnrealGame-Win64-DebugGame.exe",
+			"preLaunchTask": "ObstacleCourse Win64 DebugGame Build",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch ObstacleCourse (Development)",
+			"request": "launch",
+			"program": "Z:\\Game Dev\\Obstacle-Course\\Binaries\\Win64\\UnrealGame.exe",
+			"preLaunchTask": "ObstacleCourse Win64 Development Build",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch ObstacleCourse (Test)",
+			"request": "launch",
+			"program": "Z:\\Game Dev\\Obstacle-Course\\Binaries\\Win64\\UnrealGame-Win64-Test.exe",
+			"preLaunchTask": "ObstacleCourse Win64 Test Build",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch ObstacleCourse (Shipping)",
+			"request": "launch",
+			"program": "Z:\\Game Dev\\Obstacle-Course\\Binaries\\Win64\\UnrealGame-Win64-Shipping.exe",
+			"preLaunchTask": "ObstacleCourse Win64 Shipping Build",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch ObstacleCourseEditor (Debug)",
+			"request": "launch",
+			"program": "C:\\Program Files\\Epic Games\\UE_5.0\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-Debug.exe",
+			"preLaunchTask": "ObstacleCourseEditor Win64 Debug Build",
+			"args": [
+				"Z:\\Game Dev\\Obstacle-Course\\ObstacleCourse.uproject"
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch ObstacleCourseEditor (DebugGame)",
+			"request": "launch",
+			"program": "C:\\Program Files\\Epic Games\\UE_5.0\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-DebugGame.exe",
+			"preLaunchTask": "ObstacleCourseEditor Win64 DebugGame Build",
+			"args": [
+				"Z:\\Game Dev\\Obstacle-Course\\ObstacleCourse.uproject"
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch ObstacleCourseEditor (Development)",
+			"request": "launch",
+			"program": "C:\\Program Files\\Epic Games\\UE_5.0\\Engine\\Binaries\\Win64\\UnrealEditor.exe",
+			"preLaunchTask": "ObstacleCourseEditor Win64 Development Build",
+			"args": [
+				"Z:\\Game Dev\\Obstacle-Course\\ObstacleCourse.uproject"
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "coreclr",
+			"request": "launch",
+			"program": "C:\\Program Files\\Epic Games\\UE_5.0\\Engine\\Binaries\\DotNET\\UnrealBuildTool\\UnrealBuildTool",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=Z:\\Game Dev\\Obstacle-Course\\ObstacleCourse.uproject",
+				"-game",
+				"-engine"
+			],
+			"console": "externalTerminal",
+			"stopAtEntry": false,
+			"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+		}
+	]
+}
