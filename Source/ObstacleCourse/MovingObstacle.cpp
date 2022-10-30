@@ -16,15 +16,21 @@ void AMovingObstacle::BeginPlay()
 {
 	Super::BeginPlay();
 
-	MyInt = 43;
-	InputC = InputA + InputB;
-	TotalFloat = FloatA + FloatB;
+	SetActorLocation(MyVector);
 }
 
 // Called every frame
 void AMovingObstacle::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+
+	FVector LocalVector = MyVector;
+
+	LocalVector.Z = LocalVector.Z + 100;
+
+	MyVector.Y = MyVector.Y + 1;
+
+	SetActorLocation(LocalVector);
 
 }
 
