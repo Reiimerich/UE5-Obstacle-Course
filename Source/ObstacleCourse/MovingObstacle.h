@@ -26,4 +26,8 @@ public:
 	UPROPERTY(EditAnywhere, Category = "Obstacle Properties")
 	FVector ObstacleVelocity = FVector(100, 0, 0);
 
+	FVector StartLocation;
+
+	UPROPERTY(VisibleAnywhere)
+	float NewFloat = 0;
 };

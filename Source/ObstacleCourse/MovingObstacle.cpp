@@ -16,6 +16,7 @@ void AMovingObstacle::BeginPlay()
 {
 	Super::BeginPlay();
 
+	StartLocation = GetActorLocation();
 }
 
 // Called every frame
@@ -28,6 +29,8 @@ void AMovingObstacle::Tick(float DeltaTime)
 
 	SetActorLocation(CurrentLocation);
 
+	NewFloat += 1.241;
 
+	FVector::Dist(StartLocation, CurrentLocation);
 }
 
