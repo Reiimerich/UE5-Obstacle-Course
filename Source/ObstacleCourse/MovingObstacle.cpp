@@ -47,7 +47,7 @@ void AMovingObstacle::MovePlatform(float DeltaTime)
 
 void AMovingObstacle::RotatePlatform(float DeltaTime)
 {
-	UE_LOG(LogTemp, Display, TEXT("%s Rotating..."), *GetName());
+	AddActorLocalRotation(RotationVelocity * DeltaTime);
 }
 
 float AMovingObstacle::GetDistanceMoved() const

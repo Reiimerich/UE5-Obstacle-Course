@@ -32,6 +32,9 @@ private:
 	UPROPERTY(EditAnywhere, Category = "Obstacle Properties")
 	float MoveDistance = 100;
 
+	UPROPERTY(EditAnywhere, Category = "Obstacle Properties")
+	FRotator RotationVelocity;
+
 	void RotatePlatform(float DeltaTime);
 	void MovePlatform(float DeltaTime);
 	bool ShouldPlatformReturn() const;
