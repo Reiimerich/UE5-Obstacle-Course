@@ -23,6 +23,7 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-	UPROPERTY(EditAnywhere)
-	FVector MyVector = FVector(-1100.0, 480.0, 96);
+	UPROPERTY(EditAnywhere, Category = "Obstacle Properties")
+	FVector ObstacleVelocity = FVector(100, 0, 0);
+
 };

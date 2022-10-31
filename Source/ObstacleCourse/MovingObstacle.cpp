@@ -16,7 +16,6 @@ void AMovingObstacle::BeginPlay()
 {
 	Super::BeginPlay();
 
-	SetActorLocation(MyVector);
 }
 
 // Called every frame
@@ -24,13 +23,11 @@ void AMovingObstacle::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	FVector LocalVector = MyVector;
+	FVector CurrentLocation = GetActorLocation();
+	CurrentLocation += ObstacleVelocity * DeltaTime;
 
-	LocalVector.Z = LocalVector.Z + 100;
+	SetActorLocation(CurrentLocation);
 
-	MyVector.Y = MyVector.Y + 1;
-
-	SetActorLocation(LocalVector);
 
 }
 
