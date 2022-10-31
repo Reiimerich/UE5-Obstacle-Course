@@ -23,6 +23,8 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+private:
+
 	UPROPERTY(EditAnywhere, Category = "Obstacle Properties")
 	FVector ObstacleVelocity = FVector(100, 0, 0);
 	FVector StartLocation;
@@ -30,4 +32,8 @@ public:
 	UPROPERTY(EditAnywhere, Category = "Obstacle Properties")
 	float MoveDistance = 100;
 
+	void RotatePlatform(float DeltaTime);
+	void MovePlatform(float DeltaTime);
+	bool ShouldPlatformReturn() const;
+	float GetDistanceMoved() const;
 };

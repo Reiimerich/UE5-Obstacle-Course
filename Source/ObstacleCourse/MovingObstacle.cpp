@@ -24,19 +24,40 @@ void AMovingObstacle::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	FVector CurrentLocation = GetActorLocation();
-	CurrentLocation += ObstacleVelocity * DeltaTime;
+	MovePlatform(DeltaTime);
+	RotatePlatform(DeltaTime);
+}
 
-	SetActorLocation(CurrentLocation);
-
-	float DistanceMoved = FVector::Dist(StartLocation, CurrentLocation);
-
-	if(DistanceMoved > MoveDistance)
+void AMovingObstacle::MovePlatform(float DeltaTime)
+{
+	if(ShouldPlatformReturn())
 	{
 		FVector MoveDirection = ObstacleVelocity.GetSafeNormal();
 		StartLocation += MoveDirection * MoveDistance;
 		SetActorLocation(StartLocation);
 		ObstacleVelocity = -ObstacleVelocity;
 	}
+	else
+	{
+		FVector CurrentLocation = GetActorLocation();
+		CurrentLocation += ObstacleVelocity * DeltaTime;
+		SetActorLocation(CurrentLocation);
+	}
 }
+
+void AMovingObstacle::RotatePlatform(float DeltaTime)
+{
+	UE_LOG(LogTemp, Display, TEXT("%s Rotating..."), *GetName());
+}
+
+float AMovingObstacle::GetDistanceMoved() const
+{
+	return FVector::Dist(StartLocation, GetActorLocation());
+}
+
+bool AMovingObstacle::ShouldPlatformReturn() const
+{
+	return GetDistanceMoved() > MoveDistance;
+}
+
 
