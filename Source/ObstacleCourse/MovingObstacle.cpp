@@ -29,8 +29,14 @@ void AMovingObstacle::Tick(float DeltaTime)
 
 	SetActorLocation(CurrentLocation);
 
-	NewFloat += 1.241;
+	float DistanceMoved = FVector::Dist(StartLocation, CurrentLocation);
 
-	FVector::Dist(StartLocation, CurrentLocation);
+	if(DistanceMoved > MoveDistance)
+	{
+		FVector MoveDirection = ObstacleVelocity.GetSafeNormal();
+		StartLocation += MoveDirection * MoveDistance;
+		SetActorLocation(StartLocation);
+		ObstacleVelocity = -ObstacleVelocity;
+	}
 }
 
