@@ -1,5 +1,5 @@
 /FI "C:\Program Files\Epic Games\UE_5.0\Engine\Intermediate\Build\Win64\UnrealEditor\Development\AssetRegistry\Definitions.AssetRegistry.h" 
-/FI "Z:\Game Dev\Obstacle-Course\Intermediate\Build\Win64\ObstacleCourseEditor\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.TypeCastWarnings.h" 
+/FI "Z:\Game Dev\UE5-Obstacle-Course\Intermediate\Build\Win64\ObstacleCourseEditor\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.TypeCastWarnings.h" 
 /I "C:\Program Files\Epic Games\UE_5.0\Engine\Source" 
 /I "C:\Program Files\Epic Games\UE_5.0\Engine\Source\Runtime\AssetRegistry\Private" 
 /I "C:\Program Files\Epic Games\UE_5.0\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Core" 

@@ -1,27 +1,27 @@
 [
 	{
-		"file": "Z:\\Game Dev\\Obstacle-Course\\Source\\ObstacleCourse\\MovingObstacle.cpp",
-		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe\" @\"Z:\\Game Dev\\Obstacle-Course\\.vscode\\compileCommands_Default\\ObstacleCourse.205.rsp\"",
+		"file": "Z:\\Game Dev\\UE5-Obstacle-Course\\Source\\ObstacleCourse\\MovingObstacle.cpp",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe\" @\"Z:\\Game Dev\\UE5-Obstacle-Course\\.vscode\\compileCommands_Default\\ObstacleCourse.205.rsp\"",
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.0\\Engine\\Source"
 	},
 	{
-		"file": "Z:\\Game Dev\\Obstacle-Course\\Source\\ObstacleCourse\\MovingObstacle.h",
-		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe\" @\"Z:\\Game Dev\\Obstacle-Course\\.vscode\\compileCommands_Default\\ObstacleCourse.205.rsp\"",
+		"file": "Z:\\Game Dev\\UE5-Obstacle-Course\\Source\\ObstacleCourse\\MovingObstacle.h",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe\" @\"Z:\\Game Dev\\UE5-Obstacle-Course\\.vscode\\compileCommands_Default\\ObstacleCourse.205.rsp\"",
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.0\\Engine\\Source"
 	},
 	{
-		"file": "Z:\\Game Dev\\Obstacle-Course\\Source\\ObstacleCourse\\ObstacleCourse.Build.cs",
-		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe\" @\"Z:\\Game Dev\\Obstacle-Course\\.vscode\\compileCommands_Default\\ObstacleCourse.205.rsp\"",
+		"file": "Z:\\Game Dev\\UE5-Obstacle-Course\\Source\\ObstacleCourse\\ObstacleCourse.Build.cs",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe\" @\"Z:\\Game Dev\\UE5-Obstacle-Course\\.vscode\\compileCommands_Default\\ObstacleCourse.205.rsp\"",
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.0\\Engine\\Source"
 	},
 	{
-		"file": "Z:\\Game Dev\\Obstacle-Course\\Source\\ObstacleCourse\\ObstacleCourse.cpp",
-		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe\" @\"Z:\\Game Dev\\Obstacle-Course\\.vscode\\compileCommands_Default\\ObstacleCourse.205.rsp\"",
+		"file": "Z:\\Game Dev\\UE5-Obstacle-Course\\Source\\ObstacleCourse\\ObstacleCourse.cpp",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe\" @\"Z:\\Game Dev\\UE5-Obstacle-Course\\.vscode\\compileCommands_Default\\ObstacleCourse.205.rsp\"",
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.0\\Engine\\Source"
 	},
 	{
-		"file": "Z:\\Game Dev\\Obstacle-Course\\Source\\ObstacleCourse\\ObstacleCourse.h",
-		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe\" @\"Z:\\Game Dev\\Obstacle-Course\\.vscode\\compileCommands_Default\\ObstacleCourse.205.rsp\"",
+		"file": "Z:\\Game Dev\\UE5-Obstacle-Course\\Source\\ObstacleCourse\\ObstacleCourse.h",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe\" @\"Z:\\Game Dev\\UE5-Obstacle-Course\\.vscode\\compileCommands_Default\\ObstacleCourse.205.rsp\"",
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.0\\Engine\\Source"
 	}
 ]

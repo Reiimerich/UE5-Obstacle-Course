@@ -1,5 +1,5 @@
 /FI "C:\Program Files\Epic Games\UE_5.0\Engine\Intermediate\Build\Win64\UnrealEditor\Development\DataLayerEditor\Definitions.DataLayerEditor.h" 
-/FI "Z:\Game Dev\Obstacle-Course\Intermediate\Build\Win64\ObstacleCourseEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h" 
+/FI "Z:\Game Dev\UE5-Obstacle-Course\Intermediate\Build\Win64\ObstacleCourseEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h" 
 /I "C:\Program Files\Epic Games\UE_5.0\Engine\Source" 
 /I "C:\Program Files\Epic Games\UE_5.0\Engine\Source\Editor\DataLayerEditor\Private" 
 /I "C:\Program Files\Epic Games\UE_5.0\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Core" 

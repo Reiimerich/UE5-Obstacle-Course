@@ -4,7 +4,7 @@
 		{
 			"name": "Launch ObstacleCourse (Debug)",
 			"request": "launch",
-			"program": "Z:\\Game Dev\\Obstacle-Course\\Binaries\\Win64\\UnrealGame-Win64-Debug.exe",
+			"program": "Z:\\Game Dev\\UE5-Obstacle-Course\\Binaries\\Win64\\UnrealGame-Win64-Debug.exe",
 			"preLaunchTask": "ObstacleCourse Win64 Debug Build",
 			"args": [
 			],
@@ -20,7 +20,7 @@
 		{
 			"name": "Launch ObstacleCourse (DebugGame)",
 			"request": "launch",
-			"program": "Z:\\Game Dev\\Obstacle-Course\\Binaries\\Win64\\UnrealGame-Win64-DebugGame.exe",
+			"program": "Z:\\Game Dev\\UE5-Obstacle-Course\\Binaries\\Win64\\UnrealGame-Win64-DebugGame.exe",
 			"preLaunchTask": "ObstacleCourse Win64 DebugGame Build",
 			"args": [
 			],
@@ -36,7 +36,7 @@
 		{
 			"name": "Launch ObstacleCourse (Development)",
 			"request": "launch",
-			"program": "Z:\\Game Dev\\Obstacle-Course\\Binaries\\Win64\\UnrealGame.exe",
+			"program": "Z:\\Game Dev\\UE5-Obstacle-Course\\Binaries\\Win64\\UnrealGame.exe",
 			"preLaunchTask": "ObstacleCourse Win64 Development Build",
 			"args": [
 			],
@@ -52,7 +52,7 @@
 		{
 			"name": "Launch ObstacleCourse (Test)",
 			"request": "launch",
-			"program": "Z:\\Game Dev\\Obstacle-Course\\Binaries\\Win64\\UnrealGame-Win64-Test.exe",
+			"program": "Z:\\Game Dev\\UE5-Obstacle-Course\\Binaries\\Win64\\UnrealGame-Win64-Test.exe",
 			"preLaunchTask": "ObstacleCourse Win64 Test Build",
 			"args": [
 			],
@@ -68,7 +68,7 @@
 		{
 			"name": "Launch ObstacleCourse (Shipping)",
 			"request": "launch",
-			"program": "Z:\\Game Dev\\Obstacle-Course\\Binaries\\Win64\\UnrealGame-Win64-Shipping.exe",
+			"program": "Z:\\Game Dev\\UE5-Obstacle-Course\\Binaries\\Win64\\UnrealGame-Win64-Shipping.exe",
 			"preLaunchTask": "ObstacleCourse Win64 Shipping Build",
 			"args": [
 			],
@@ -87,7 +87,7 @@
 			"program": "C:\\Program Files\\Epic Games\\UE_5.0\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-Debug.exe",
 			"preLaunchTask": "ObstacleCourseEditor Win64 Debug Build",
 			"args": [
-				"Z:\\Game Dev\\Obstacle-Course\\ObstacleCourse.uproject"
+				"Z:\\Game Dev\\UE5-Obstacle-Course\\ObstacleCourse.uproject"
 			],
 			"cwd": "C:\\Program Files\\Epic Games\\UE_5.0",
 			"stopAtEntry": false,
@@ -104,7 +104,7 @@
 			"program": "C:\\Program Files\\Epic Games\\UE_5.0\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-DebugGame.exe",
 			"preLaunchTask": "ObstacleCourseEditor Win64 DebugGame Build",
 			"args": [
-				"Z:\\Game Dev\\Obstacle-Course\\ObstacleCourse.uproject"
+				"Z:\\Game Dev\\UE5-Obstacle-Course\\ObstacleCourse.uproject"
 			],
 			"cwd": "C:\\Program Files\\Epic Games\\UE_5.0",
 			"stopAtEntry": false,
@@ -121,7 +121,7 @@
 			"program": "C:\\Program Files\\Epic Games\\UE_5.0\\Engine\\Binaries\\Win64\\UnrealEditor.exe",
 			"preLaunchTask": "ObstacleCourseEditor Win64 Development Build",
 			"args": [
-				"Z:\\Game Dev\\Obstacle-Course\\ObstacleCourse.uproject"
+				"Z:\\Game Dev\\UE5-Obstacle-Course\\ObstacleCourse.uproject"
 			],
 			"cwd": "C:\\Program Files\\Epic Games\\UE_5.0",
 			"stopAtEntry": false,
@@ -140,7 +140,7 @@
 			"args": [
 				"-projectfiles",
 				"-vscode",
-				"-project=Z:\\Game Dev\\Obstacle-Course\\ObstacleCourse.uproject",
+				"-project=Z:\\Game Dev\\UE5-Obstacle-Course\\ObstacleCourse.uproject",
 				"-game",
 				"-engine"
 			],
